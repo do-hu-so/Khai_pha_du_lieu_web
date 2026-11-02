@@ -1,0 +1,125 @@
+# =============================================================================
+# CẤU HÌNH NGUỒN THU THẬP DỮ LIỆU
+# -----------------------------------------------------------------------------
+# type: html    -> crawler tổng quát (BFS tập trung: trang danh mục -> bài viết)
+# type: vbeta   -> crawler gọi API công khai của vbeta.vn (api.phapbao.org)
+# type: manual  -> nhập file thủ công trong data/raw/manual (txt, md, html, pdf, docx)
+#
+# article_url_regex : URL khớp mẫu này được coi là BÀI VIẾT -> trích xuất nội dung
+# follow_url_regex  : URL khớp mẫu này là TRANG DANH MỤC -> chỉ lấy link, không lưu
+# deny_url_regex    : URL khớp mẫu này bị bỏ qua
+# max_articles      : số bài tối đa mỗi nguồn (tăng lên để có kho lớn hơn)
+# =============================================================================
+
+defaults:
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+  delay_seconds: 1.0        # nghỉ giữa 2 request tới cùng 1 host (lịch sự với máy chủ)
+  timeout_seconds: 30
+  max_retries: 3
+  respect_robots: true
+  max_pages: 3000           # tổng số request tối đa / nguồn (kể cả trang danh mục)
+  max_articles: 100
+
+sources:
+  - id: phatgiao
+    name: Cổng thông tin Phật giáo Việt Nam (phatgiao.org.vn)
+    type: html
+    enabled: true
+    start_urls:
+      - https://phatgiao.org.vn/kien-thuc/
+      - https://phatgiao.org.vn/duc-phat/
+      - https://phatgiao.org.vn/hoi-dap/
+      - https://phatgiao.org.vn/kinh-a-di-da/
+      - https://phatgiao.org.vn/chu-dai-bi/
+      - https://phatgiao.org.vn/goc-quan-niem/
+      - https://phatgiao.org.vn/chua-viet/
+      - https://phatgiao.org.vn/giao-hoi/
+    article_url_regex: '^https://phatgiao\.org\.vn/[a-z0-9-]+-[dg]\d+\.html$'
+    follow_url_regex: '^https://phatgiao\.org\.vn/[a-z0-9-]+/(p\d+/?)?$'
+    deny_url_regex: '/(anh|video|audio|tim-kiem|tag|lien-he)/'
+
+  - id: langmai
+    name: Làng Mai (langmai.org)
+    type: html
+    enabled: true
+    start_urls:
+      - https://langmai.org/tang-kinh-cac/kinh-van/
+      - https://langmai.org/tang-kinh-cac/bai-viet/
+      - https://langmai.org/tang-kinh-cac/gieng-nuoc-thom-trong/
+      - https://langmai.org/tang-kinh-cac/loi-quan-nguyen/
+      - https://langmai.org/tang-kinh-cac/tu-dien-lang-mai/
+      - https://langmai.org/phat-duong/
+      - https://langmai.org/dai-may-tim/tham-van-duong/
+    # WordPress: bài viết có class "single"; trang lá (kinh văn) có "page-child" nhưng không có
+    # "page-parent" (trang mục lục). Nhận diện qua class của thẻ <body>.
+    article_body_class:
+      any: [single, page-child]
+      none: [page-parent, archive, home, blog, search]
+    follow_url_regex: '^https://langmai\.org/(tang-kinh-cac|phat-duong|dai-may-tim)/[a-z0-9/-]*$'
+    deny_url_regex: '/(feed|wp-json|wp-content|tag|author|comments)/|\?replytocom='
+
+  - id: daophatngaynay
+    name: Đạo Phật Ngày Nay (daophatngaynay.com)
+    type: html
+    enabled: true
+    start_urls:
+      - https://daophatngaynay.com/vn/kinh-dien/kinh-dien-dai-thua/index.1.html
+      - https://daophatngaynay.com/vn/kinh-dien/kinh-dien-pali/index.1.html
+      - https://daophatngaynay.com/vn/kinh-dien/luan-tang/index.1.html
+      - https://daophatngaynay.com/vn/kinh-dien/luat-tang/index.1.html
+      - https://daophatngaynay.com/vn/phap-mon/thien-dinh/index.1.html
+      - https://daophatngaynay.com/vn/pg-cac-nganh/triet-hoc/index.1.html
+      - https://daophatngaynay.com/vn/duc-phat/index.1.html
+      - https://daophatngaynay.com/vn/pg-viet-nam/lich-su/index.1.html
+      - https://daophatngaynay.com/vn/cuoc-song/index.1.html
+    # (?!vn/): trang có link tương đối sinh ra URL lặp "/vn/vn/..." -> bỏ qua
+    article_url_regex: '^https://daophatngaynay\.com/vn/(?!vn/)[a-z0-9/-]+/\d+-[a-z0-9-]+\.html$'
+    follow_url_regex: '^https://daophatngaynay\.com/vn/(?!vn/)[a-z0-9/-]+/index\.1\.html(\?page=\d+)?$'
+    deny_url_regex: '/(dien-dan|danh-sach-tac-gia|video|audio)/'
+
+  - id: tuvien
+    name: Tu Viện Quảng Đức (tuvien.com)
+    type: html
+    # TẮT theo quyết định của dự án: robots.txt của tuvien.com khai báo
+    # "Content-Signal: ai-train=no, use=reference" và chặn các bot AI.
+    enabled: false
+    start_urls:
+      - https://tuvien.com/duc_phat/index.php
+      - https://tuvien.com/bo_tat/index.php
+      - https://tuvien.com/gioi_luat/index.php
+      - https://tuvien.com/chet_va_tai_sinh/index.php
+    article_url_regex: '^https?://tuvien\.com/[a-z_]+/index\.php\?id=[A-Za-z0-9_-]+$'
+    follow_url_regex: '^https?://tuvien\.com/[a-z_]+/index\.php$'
+    # "Đức Phật - Ánh Đạo Vàng. Đức Phật - Tủ Sách Phật Giáo" -> "Đức Phật - Ánh Đạo Vàng"
+    title_strip_regex: '(\.\s*[^.]*)?\s*-\s*Tủ Sách Phật Giáo\s*$'
+    deny_url_regex: '/(audio|chua_online|an_chay)/'
+
+  - id: vbeta
+    name: Thư viện số hóa kinh sách Phật giáo (vbeta.vn)
+    type: vbeta
+    enabled: true
+    api_root: https://api.phapbao.org/api
+    web_root: https://vbeta.vn
+    # 1=Kinh, 2=Luật, 3=Luận, 4=Sách, 7=Tạp chí, 8=Linh Sơn Đại Tạng
+    category_ids: [1, 2, 3, 4]
+    max_books_per_category: 5
+    max_chapters_per_book: 5    # 4 thể loại x 5 sách x 5 chương = tối đa 100 chương
+    max_articles: 100           # tổng số chương tối đa (mỗi chương = 1 văn bản)
+    min_chars: 800              # bỏ chương quá ngắn
+    skip_toc_regex: '^(ban |hội đồng|danh sách|mục lục|thư mục)'
+    delay_seconds: 0.5
+
+  - id: thuvienhoasen
+    name: Thư Viện Hoa Sen (thuvienhoasen.org)
+    type: html
+    # Website được bảo vệ bởi Cloudflare (JS challenge, HTTP 403) -> không crawl tự động được.
+    # Cách làm: lưu trang (Ctrl+S) hoặc copy nội dung vào data/raw/manual/thuvienhoasen/
+    enabled: false
+    start_urls: [https://thuvienhoasen.org/]
+    article_url_regex: '^https://thuvienhoasen\.org/a\d+/.+'
+    max_articles: 0
+
+  - id: manual
+    name: Tài liệu bổ sung thủ công (data/raw/manual)
+    type: manual
+    enabled: true

@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-11-02T04:24:57+00:00",
+  "model_name": "intfloat/multilingual-e5-small",
+  "web_model_name": "Xenova/multilingual-e5-small",
+  "passage_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "dim": 384,
+  "num_chunks": 8698,
+  "num_docs": 384,
+  "normalized": true,
+  "dtype": "float32",
+  "chunking": {
+    "chunk_size": 900,
+    "chunk_overlap": 150,
+    "min_chunk_chars": 120
+  },
+  "by_source": {
+    "daophatngaynay": 2727,
+    "langmai": 1564,
+    "phatgiao": 1391,
+    "vbeta": 3016
+  },
+  "by_category": {
+    "Kinh điển": 6012,
+    "Lịch sử và văn hóa": 183,
+    "Phật học và triết học": 1657,
+    "Thiền và tu tập": 387,
+    "Tin tức Giáo hội": 48,
+    "Đời sống": 130,
+    "Đức Phật và chư Tổ": 134,
+    "Khác": 147
+  },
+  "sources": {
+    "daophatngaynay": "Đạo Phật Ngày Nay (daophatngaynay.com)",
+    "langmai": "Làng Mai (langmai.org)",
+    "phatgiao": "Cổng thông tin Phật giáo Việt Nam (phatgiao.org.vn)",
+    "vbeta": "Thư viện số hóa kinh sách Phật giáo (vbeta.vn)"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "category": {
+    "label": "category",
+    "num_docs": 359,
+    "class_counts": {
+      "Kinh điển": 214,
+      "Lịch sử và văn hóa": 22,
+      "Phật học và triết học": 98,
+      "Thiền và tu tập": 25
+    },
+    "models": {
+      "Naive Bayes": {
+        "cv_f1_macro": 0.3619,
+        "cv_std": 0.0533,
+        "test_f1_macro": 0.3353
+      },
+      "Logistic Regression": {
+        "cv_f1_macro": 0.6383,
+        "cv_std": 0.0923,
+        "test_f1_macro": 0.7327
+      },
+      "Linear SVM": {
+        "cv_f1_macro": 0.6254,
+        "cv_std": 0.0911,
+        "test_f1_macro": 0.7229
+      }
+    },
+    "best_model": "Logistic Regression",
+    "report": {
+      "Kinh điển": {
+        "precision": 0.8723404255319149,
+        "recall": 0.9534883720930233,
+        "f1-score": 0.9111111111111111,
+        "support": 43.0
+      },
+      "Lịch sử và văn hóa": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 4.0
+      },
+      "Phật học và triết học": {
+        "precision": 0.8095238095238095,
+        "recall": 0.85,
+        "f1-score": 0.8292682926829268,
+        "support": 20.0
+      },
+      "Thiền và tu tập": {
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1-score": 0.3333333333333333,
+        "support": 5.0
+      },
+      "accuracy": 0.8611111111111112,
+      "macro avg": {
+        "precision": 0.9204660587639311,
+        "recall": 0.6883720930232559,
+        "f1-score": 0.7327138985675571,
+        "support": 72.0
+      },
+      "weighted avg": {
+        "precision": 0.870848812338174,
+        "recall": 0.8611111111111112,
+        "f1-score": 0.8452553017593668,
+        "support": 72.0
+      }
+    },
+    "top_features": {
+      "Kinh điển": [
+        "vị",
+        "bậc",
+        "dịch",
+        "loại",
+        "khất sĩ",
+        "kệ",
+        "bạch thế tôn",
+        "thế tôn",
+        "kinh",
+        "quán niệm"
+      ],
+      "Lịch sử và văn hóa": [
+        "sáng tạo",
+        "tuyết hoa",
+        "trăng",
+        "lượt",
+        "bản văn xuôi",
+        "phỏng",
+        "ngô tằng giao + thi hóa",
+        "thi hóa",
+        "tâm minh + ngô tằng giao",
+        "ngô tằng giao"
+      ],
+      "Phật học và triết học": [
+        "làm sao",
+        "giúp",
+        "ý nghĩa",
+        "tứ",
+        "nhớ",
+        "nhất là",
+        "tầm + tứ",
+        "sư ông",
+        "phật giáo + thức",
+        "tết"
+      ],
+      "Thiền và tu tập": [
+        "thiền",
+        "nhận biết",
+        "cơ thể",
+        "phật pháp + cuộc sống",
+        "thiền sư",
+        "thiền phái",
+        "thực hành + chánh niệm",
+        "chạm",
+        "đừng + đợi",
+        "thiên nhiên"
+      ]
+    },
+    "figures": {
+      "confusion": "figures/classification_category_confusion.png"
+    }
+  },
+  "source": {
+    "label": "source",
+    "num_docs": 384,
+    "class_counts": {
+      "daophatngaynay": 94,
+      "langmai": 100,
+      "phatgiao": 99,
+      "vbeta": 91
+    },
+    "models": {
+      "Naive Bayes": {
+        "cv_f1_macro": 0.9203,
+        "cv_std": 0.0164,
+        "test_f1_macro": 0.9216
+      },
+      "Logistic Regression": {
+        "cv_f1_macro": 0.9345,
+        "cv_std": 0.0179,
+        "test_f1_macro": 0.9352
+      },
+      "Linear SVM": {
+        "cv_f1_macro": 0.9472,
+        "cv_std": 0.0166,
+        "test_f1_macro": 0.9352
+      }
+    },
+    "best_model": "Logistic Regression",
+    "report": {
+      "daophatngaynay": {
+        "precision": 0.9473684210526315,
+        "recall": 0.9473684210526315,
+        "f1-score": 0.9473684210526315,
+        "support": 19.0
+      },
+      "langmai": {
+        "precision": 1.0,
+        "recall": 0.95,
+        "f1-score": 0.9743589743589743,
+        "support": 20.0
+      },
+      "phatgiao": {
+        "precision": 1.0,
+        "recall": 0.85,
+        "f1-score": 0.918918918918919,
+        "support": 20.0
+      },
+      "vbeta": {
+        "precision": 0.8181818181818182,
+        "recall": 1.0,
+        "f1-score": 0.9,
+        "support": 18.0
+      },
+      "accuracy": 0.935064935064935,
+      "macro avg": {
+        "precision": 0.9413875598086124,
+        "recall": 0.9368421052631579,
+        "f1-score": 0.9351615785826312,
+        "support": 77.0
+      },
+      "weighted avg": {
+        "precision": 0.9445100354191264,
+        "recall": 0.935064935064935,
+        "f1-score": 0.9359163359163359,
+        "support": 77.0
+      }
+    },
+    "top_features": {
+      "daophatngaynay": [
+        "đức phật",
+        "video",
+        "ngài",
+        "bản",
+        "nhà sư",
+        "dịch",
+        "nhân sinh",
+        "viết",
+        "tâm minh",
+        "tâm minh + ngô tằng giao"
+      ],
+      "langmai": [
+        "bụt",
+        "thực tập",
+        "có mặt",
+        "làng mai",
+        "thầy",
+        "khất sĩ",
+        "đạo bụt",
+        "mọi + loài",
+        "vị + khất sĩ",
+        "tuệ giác"
+      ],
+      "phatgiao": [
+        "tài liệu",
+        "phật giáo",
+        "hỗ trợ",
+        "truyền thống + phật giáo",
+        "quyên góp + hàng",
+        "dự án + hoàn toàn",
+        "duy trì + mở rộng",
+        "giáo dục + phật giáo phi",
+        "ngân hàng + công thương",
+        "hãy + cân nhắc"
+      ],
+      "vbeta": [
+        "phạm tội",
+        "lợi ích",
+        "bạch thế tôn",
+        "thế tôn",
+        "tỳ khưu",
+        "ví như",
+        "nay",
+        "sanh",
+        "bấy giờ",
+        "pháp + đưa"
+      ]
+    },
+    "figures": {
+      "confusion": "figures/classification_source_confusion.png"
+    }
+  }
+}

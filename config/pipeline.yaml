@@ -1,0 +1,40 @@
+# =============================================================================
+# CẤU HÌNH PIPELINE XỬ LÝ (tiền xử lý -> khai phá -> chunking -> embedding)
+# =============================================================================
+
+preprocess:
+  min_chars: 300            # bỏ văn bản quá ngắn
+  max_chars: 300000         # cắt văn bản quá dài
+  min_vietnamese_ratio: 0.15 # tỉ lệ âm tiết có dấu tiếng Việt tối thiểu (lọc bài tiếng Anh)
+  drop_foreign_lines: true  # xóa dòng dài toàn tiếng nước ngoài (bài song ngữ Việt-Anh)
+  boilerplate_patterns:     # dòng chứa các mẫu này sẽ bị xóa (regex, không phân biệt hoa thường)
+    - '^(chia sẻ|share|tweet|bình luận|gửi bình luận|in bài|bản in)\b'
+    - '^(xem thêm|bài viết liên quan|tin liên quan|tin khác|đọc thêm)\s*:?$'
+    - '^(theo|nguồn)\s*:\s*\S+\.(com|vn|org|net)\S*$'
+    - '^(tags?|từ khóa)\s*:'
+
+chunking:
+  chunk_size: 900           # số ký tự tối đa / chunk (~250-300 token với tokenizer XLM-R)
+  chunk_overlap: 150        # số ký tự chồng lấp giữa 2 chunk liền kề
+  min_chunk_chars: 120      # chunk ngắn hơn sẽ được gộp vào chunk trước
+
+embedding:
+  # Mô hình Python (sentence-transformers) dùng để embed toàn bộ kho văn bản (offline)
+  model_name: intfloat/multilingual-e5-small
+  # Mô hình tương ứng chạy trên web (transformers.js / ONNX) để embed câu hỏi lúc truy vấn.
+  # PHẢI cùng kiến trúc + trọng số với model_name thì vector mới cùng không gian.
+  web_model_name: Xenova/multilingual-e5-small
+  passage_prefix: "passage: "
+  query_prefix: "query: "
+  batch_size: 32
+  max_seq_length: 512
+  normalize: true
+
+mining:
+  segmenter: underthesea    # underthesea | syllable (tách theo âm tiết, nhanh hơn)
+  max_chars_per_doc: 20000  # chỉ dùng N ký tự đầu mỗi văn bản cho khai phá (tăng tốc)
+  lda_topics: 10
+  kmeans_k: 8
+  ner_sample_docs: 150
+  top_keywords: 20
+  random_state: 42

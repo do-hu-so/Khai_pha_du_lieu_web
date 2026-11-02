@@ -1,0 +1,528 @@
+{
+  "num_docs": 384,
+  "num_tokens": 591672,
+  "vocab_size": 30897,
+  "type_token_ratio": 0.0522,
+  "compound_word_ratio": 0.8216,
+  "zipf_slope": -1.192,
+  "by_source": [
+    {
+      "source": "daophatngaynay",
+      "docs": 94,
+      "chars": 1837209,
+      "mean_words": 1639.8
+    },
+    {
+      "source": "langmai",
+      "docs": 100,
+      "chars": 1068981,
+      "mean_words": 1379.6
+    },
+    {
+      "source": "phatgiao",
+      "docs": 99,
+      "chars": 976090,
+      "mean_words": 1085.4
+    },
+    {
+      "source": "vbeta",
+      "docs": 91,
+      "chars": 2124084,
+      "mean_words": 2111.2
+    }
+  ],
+  "by_category": [
+    {
+      "category": "Kinh điển",
+      "docs": 214,
+      "chars": 4167460
+    },
+    {
+      "category": "Phật học và triết học",
+      "docs": 98,
+      "chars": 1139474
+    },
+    {
+      "category": "Thiền và tu tập",
+      "docs": 25,
+      "chars": 266086
+    },
+    {
+      "category": "Lịch sử và văn hóa",
+      "docs": 22,
+      "chars": 124290
+    },
+    {
+      "category": "Đức Phật và chư Tổ",
+      "docs": 9,
+      "chars": 87800
+    },
+    {
+      "category": "Đời sống",
+      "docs": 8,
+      "chars": 85418
+    },
+    {
+      "category": "Tin tức Giáo hội",
+      "docs": 6,
+      "chars": 33296
+    },
+    {
+      "category": "Khác",
+      "docs": 2,
+      "chars": 102540
+    }
+  ],
+  "top_words": [
+    [
+      "người",
+      5994
+    ],
+    [
+      "vị",
+      3015
+    ],
+    [
+      "con",
+      2782
+    ],
+    [
+      "phật",
+      2088
+    ],
+    [
+      "pháp",
+      2061
+    ],
+    [
+      "ngài",
+      2059
+    ],
+    [
+      "sống",
+      1380
+    ],
+    [
+      "đức_phật",
+      1330
+    ],
+    [
+      "kinh",
+      1252
+    ],
+    [
+      "nghe",
+      1130
+    ],
+    [
+      "bồ_tát",
+      1034
+    ],
+    [
+      "thầy",
+      980
+    ],
+    [
+      "lời",
+      932
+    ],
+    [
+      "thành",
+      891
+    ],
+    [
+      "tu",
+      880
+    ],
+    [
+      "phật_giáo",
+      847
+    ],
+    [
+      "tâm",
+      828
+    ],
+    [
+      "hỏi",
+      778
+    ],
+    [
+      "bậc",
+      765
+    ],
+    [
+      "đường",
+      753
+    ],
+    [
+      "quán",
+      753
+    ],
+    [
+      "nước",
+      721
+    ],
+    [
+      "vua",
+      719
+    ],
+    [
+      "mọi",
+      719
+    ],
+    [
+      "chúng_sanh",
+      719
+    ],
+    [
+      "cách",
+      710
+    ],
+    [
+      "tự",
+      693
+    ],
+    [
+      "hãy",
+      680
+    ],
+    [
+      "hiểu",
+      669
+    ],
+    [
+      "dạy",
+      653
+    ],
+    [
+      "bỏ",
+      630
+    ],
+    [
+      "tên",
+      615
+    ],
+    [
+      "nhìn",
+      600
+    ],
+    [
+      "lớn",
+      592
+    ],
+    [
+      "thời",
+      589
+    ],
+    [
+      "học",
+      587
+    ],
+    [
+      "tìm",
+      585
+    ],
+    [
+      "sanh",
+      583
+    ],
+    [
+      "thân",
+      577
+    ],
+    [
+      "rõ",
+      573
+    ],
+    [
+      "đưa",
+      571
+    ],
+    [
+      "dùng",
+      570
+    ],
+    [
+      "mẹ",
+      568
+    ],
+    [
+      "đời",
+      568
+    ],
+    [
+      "lòng",
+      557
+    ],
+    [
+      "chỗ",
+      557
+    ],
+    [
+      "tăng",
+      541
+    ],
+    [
+      "bà",
+      519
+    ],
+    [
+      "nhận",
+      512
+    ],
+    [
+      "kia",
+      512
+    ]
+  ],
+  "top_compound_words": [
+    [
+      "đức_phật",
+      1330
+    ],
+    [
+      "bồ_tát",
+      1034
+    ],
+    [
+      "phật_giáo",
+      847
+    ],
+    [
+      "chúng_sanh",
+      719
+    ],
+    [
+      "thế_giới",
+      511
+    ],
+    [
+      "con_người",
+      482
+    ],
+    [
+      "giải_thoát",
+      431
+    ],
+    [
+      "bất_khả_thuyết",
+      402
+    ],
+    [
+      "nhà_vua",
+      398
+    ],
+    [
+      "thực_tập",
+      393
+    ],
+    [
+      "trí_tuệ",
+      379
+    ],
+    [
+      "hạnh_phúc",
+      371
+    ],
+    [
+      "tu_tập",
+      370
+    ],
+    [
+      "khổ_đau",
+      370
+    ],
+    [
+      "thanh_tịnh",
+      367
+    ],
+    [
+      "tỳ_khưu",
+      365
+    ],
+    [
+      "khả_năng",
+      364
+    ],
+    [
+      "bạch_thế_tôn",
+      363
+    ],
+    [
+      "câu_chuyện",
+      355
+    ],
+    [
+      "trở_thành",
+      340
+    ],
+    [
+      "việt_nam",
+      338
+    ],
+    [
+      "đệ_tử",
+      334
+    ],
+    [
+      "thế_gian",
+      330
+    ],
+    [
+      "vô_thường",
+      329
+    ],
+    [
+      "chánh_niệm",
+      329
+    ],
+    [
+      "phạm_tội",
+      324
+    ],
+    [
+      "phân_biệt",
+      319
+    ],
+    [
+      "nhân_duyên",
+      315
+    ],
+    [
+      "giải_thích",
+      314
+    ],
+    [
+      "thế_tôn",
+      312
+    ]
+  ],
+  "top_bigrams": [
+    [
+      "con đường",
+      400
+    ],
+    [
+      "cúng dường",
+      235
+    ],
+    [
+      "tu bậc",
+      206
+    ],
+    [
+      "mọi người",
+      177
+    ],
+    [
+      "con trai",
+      164
+    ],
+    [
+      "người con",
+      164
+    ],
+    [
+      "hơi thở",
+      163
+    ],
+    [
+      "vị khất_sĩ",
+      160
+    ],
+    [
+      "chuyển hóa",
+      149
+    ],
+    [
+      "quán chiếu",
+      144
+    ],
+    [
+      "đảnh lễ",
+      140
+    ],
+    [
+      "phật dạy",
+      137
+    ],
+    [
+      "vị tỳ_khưu",
+      135
+    ],
+    [
+      "vị tu",
+      133
+    ],
+    [
+      "bát_nhã ba_la_mật",
+      128
+    ],
+    [
+      "kinh phật",
+      128
+    ],
+    [
+      "lời dạy",
+      125
+    ],
+    [
+      "kể câu_chuyện",
+      121
+    ],
+    [
+      "người người",
+      118
+    ],
+    [
+      "người tu",
+      117
+    ],
+    [
+      "tu học",
+      116
+    ],
+    [
+      "ht thích_minh_châu",
+      115
+    ],
+    [
+      "books_kinh tăng_chi_bộ",
+      114
+    ],
+    [
+      "tăng_chi_bộ ht",
+      114
+    ],
+    [
+      "ch ph",
+      114
+    ],
+    [
+      "thích_minh_châu ch",
+      113
+    ],
+    [
+      "tầm tứ",
+      113
+    ],
+    [
+      "niềm tin",
+      112
+    ],
+    [
+      "câu hỏi",
+      110
+    ],
+    [
+      "tu bồ_đề",
+      109
+    ]
+  ],
+  "figures": {
+    "distribution": "figures/stats_distribution.png",
+    "length": "figures/stats_length_by_source.png",
+    "top_words": "figures/stats_top_words.png",
+    "zipf": "figures/stats_zipf.png"
+  }
+}

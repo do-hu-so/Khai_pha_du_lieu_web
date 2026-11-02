@@ -1,0 +1,2 @@
+# File vector embedding là nhị phân: không để git đổi ký tự xuống dòng (sẽ làm hỏng index)
+*.f32 binary

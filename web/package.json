@@ -1,0 +1,30 @@
+{
+  "name": "phat-giao-rag-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chatbot hỏi đáp kiến thức Phật giáo tiếng Việt (RAG: hybrid retrieval + LLM reranking + Groq)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "check-index": "node scripts/check-index.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.8.1",
+    "next": "15.5.28",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "react-markdown": "10.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.9",
+    "typescript": "5.8.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

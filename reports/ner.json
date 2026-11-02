@@ -1,0 +1,314 @@
+{
+  "sample_docs": 150,
+  "top": {
+    "PER": [
+      [
+        "Ngài",
+        147
+      ],
+      [
+        "Đức Phật",
+        145
+      ],
+      [
+        "Phật",
+        125
+      ],
+      [
+        "Bụt",
+        85
+      ],
+      [
+        "Tỳ-kheo",
+        62
+      ],
+      [
+        "Như Lai",
+        44
+      ],
+      [
+        "Xá Lợi Phất",
+        42
+      ],
+      [
+        "Kinh",
+        38
+      ],
+      [
+        "Bồ Tát",
+        38
+      ],
+      [
+        "Tuân",
+        31
+      ],
+      [
+        "Tỷ-kheo",
+        31
+      ],
+      [
+        "Thích Minh Châu",
+        31
+      ],
+      [
+        "Ch",
+        30
+      ],
+      [
+        "Tâm",
+        29
+      ],
+      [
+        "Bồ Tát Quan Thế Âm",
+        26
+      ],
+      [
+        "T.",
+        25
+      ],
+      [
+        "Này Ananda",
+        23
+      ],
+      [
+        "Trịnh Công Sơn",
+        23
+      ],
+      [
+        "Thế Tôn",
+        18
+      ],
+      [
+        "Federick",
+        17
+      ],
+      [
+        "Tu Bồ Đề",
+        16
+      ],
+      [
+        "Đức Thế Tôn",
+        15
+      ],
+      [
+        "Tăng",
+        15
+      ],
+      [
+        "Nguyện",
+        14
+      ],
+      [
+        "Làng Mai",
+        14
+      ]
+    ],
+    "LOC": [
+      [
+        "Pháp",
+        113
+      ],
+      [
+        "các Tỷ-kheo",
+        109
+      ],
+      [
+        "Việt Nam",
+        57
+      ],
+      [
+        "NHAU XIỂN DƯƠNG ĐẠO PHẬT",
+        31
+      ],
+      [
+        "HT",
+        31
+      ],
+      [
+        "Ph",
+        30
+      ],
+      [
+        "| Video Books Kinh Tăng Chi Bộ",
+        29
+      ],
+      [
+        "tài thí Xiển dương Đạo Pháp",
+        28
+      ],
+      [
+        "Tỷ-kheo",
+        25
+      ],
+      [
+        "Việt",
+        23
+      ],
+      [
+        "tiếng Việt",
+        20
+      ],
+      [
+        "ngài Thế Thân",
+        20
+      ],
+      [
+        "ông già Noel",
+        20
+      ],
+      [
+        "Phật",
+        18
+      ],
+      [
+        "Trung Quốc",
+        14
+      ],
+      [
+        "Tăng",
+        14
+      ],
+      [
+        ", Đức Phật",
+        13
+      ],
+      [
+        "Bồ Tát",
+        13
+      ],
+      [
+        "Bụt",
+        13
+      ],
+      [
+        "đại đức Xá Lợi Phất",
+        12
+      ],
+      [
+        "sức mạnh Quan Âm",
+        12
+      ],
+      [
+        "Ấn Độ",
+        11
+      ],
+      [
+        "Buông",
+        10
+      ],
+      [
+        "giả Cấp Cô",
+        10
+      ],
+      [
+        "Độc",
+        10
+      ]
+    ],
+    "ORG": [
+      [
+        "A Nan",
+        10
+      ],
+      [
+        "Ngài",
+        4
+      ],
+      [
+        "Phật",
+        3
+      ],
+      [
+        "Tây Tạng",
+        2
+      ],
+      [
+        "Đức Phật",
+        2
+      ],
+      [
+        "Nan-đà",
+        2
+      ],
+      [
+        "Vacchagotta",
+        1
+      ],
+      [
+        "Thiện Siêu",
+        1
+      ],
+      [
+        "Living Buddha",
+        1
+      ],
+      [
+        "Kinh Duy Ma Cật",
+        1
+      ],
+      [
+        "Ma",
+        1
+      ],
+      [
+        "Tâm Kinh",
+        1
+      ],
+      [
+        "Đức",
+        1
+      ],
+      [
+        "Thiền",
+        1
+      ],
+      [
+        "Đại Học Princeton",
+        1
+      ],
+      [
+        "Ấn Độ Giáo",
+        1
+      ],
+      [
+        "Tỳ-bà-sa",
+        1
+      ],
+      [
+        "Luận Thích",
+        1
+      ],
+      [
+        "Phật Giáo",
+        1
+      ],
+      [
+        "Gandhara",
+        1
+      ],
+      [
+        "Nhất Thiết Hữu Bộ",
+        1
+      ],
+      [
+        "Du-già-hành Tông",
+        1
+      ],
+      [
+        "Nepal",
+        1
+      ],
+      [
+        "Dulvā Vinaya",
+        1
+      ],
+      [
+        "Dharmagupta",
+        1
+      ]
+    ]
+  },
+  "figures": {
+    "top_entities": "figures/ner_top_entities.png"
+  }
+}

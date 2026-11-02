@@ -1,0 +1,37 @@
+# =============================================================================
+# BẢNG ÁNH XẠ CHỦ ĐỀ THỐNG NHẤT
+# -----------------------------------------------------------------------------
+# Mỗi nguồn có cách phân mục riêng. Để khai phá/phân loại trên toàn kho, mỗi văn bản
+# được gán 1 nhãn chủ đề thống nhất dựa trên: chuyên mục gốc (breadcrumb) + URL, sau đó
+# mới đến tiêu đề. Luật được xét theo thứ tự từ trên xuống, luật khớp đầu tiên được chọn.
+# Từ khóa được so khớp TRỌN TOKEN trên chuỗi đã bỏ dấu, chữ thường, khoảng trắng -> "-"
+#   vd "Kinh điển Đại Thừa" -> "kinh-dien-dai-thua" khớp từ khóa "kinh-dien".
+# =============================================================================
+
+default: Khác
+
+rules:
+  # Lưu ý: KHÔNG dùng "tang-kinh" vì sẽ khớp "tang-kinh-cac" (Tàng Kinh Các = thư viện Làng Mai,
+  # chứa cả bài viết, từ điển, thơ) -> các mục con của Tàng Kinh Các được khai báo riêng bên dưới.
+  - label: Kinh điển
+    keywords: [kinh-dien, kinh-van, "category: kinh", "category: luat", "category: luan",
+               luat-tang, luan-tang, dai-tang, kinh-moi-dich, tung-kinh, gioi-luat,
+               kinh-phat, kinh-phap-cu, kinh-bach-du, sam-nguyen]
+  - label: Thiền và tu tập
+    keywords: [thien, thien-dinh, phap-mon, phat-duong, tu-tap, niem-phat, tinh-do, sam-phap,
+               khoa-tu, chanh-niem, nghi-thuc, mat-tong, thuc-hanh-phap, tham-van-duong,
+               loi-quan-nguyen]
+  - label: Đức Phật và chư Tổ
+    keywords: [duc-phat, bo-tat, to-su, thap-dai-de-tu, chan-dung, cao-tang]
+  - label: Phật học và triết học
+    keywords: [kien-thuc, triet-hoc, giao-ly, giao-phap, phat-hoc, hoc-phat, hoi-dap, tu-dien,
+               tai-sinh, nhan-qua, goc-quan-niem, loi-phat-day, tu-lieu, tam-tanh,
+               vo-thuong-kho-vo-nga, pg-cac-nganh, "category: sach", tang-kinh-cac/bai-viet]
+  - label: Lịch sử và văn hóa
+    keywords: [lich-su, chua-viet, danh-lam, van-hoc, van-hoa, pg-viet-nam, pg-quoc-te, kien-truc,
+               tho, diem-sach, hoi-hoa, thu-phap, gieng-nuoc-thom-trong, dai-may-tim]
+  - label: Tin tức Giáo hội
+    keywords: [giao-hoi, tin-tuc, su-kien, dai-hoi, thong-bach, phat-su, phong-van]
+  - label: Đời sống
+    keywords: [cuoc-song, doi-song, gia-dinh, an-chay, goc-nhin, tam-tinh, tap-chi,
+               bai-viet-chon-loc, dao-phat-trong-trai-tim-toi]

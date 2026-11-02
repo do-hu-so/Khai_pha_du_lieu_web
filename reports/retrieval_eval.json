@@ -1,0 +1,178 @@
+{
+  "num_questions": 25,
+  "summary": {
+    "BM25": {
+      "hit@1": 0.8,
+      "hit@3": 0.84,
+      "hit@5": 0.88,
+      "mrr@10": 0.834,
+      "ms": 34.5
+    },
+    "Dense": {
+      "hit@1": 0.8,
+      "hit@3": 0.96,
+      "hit@5": 0.96,
+      "mrr@10": 0.88,
+      "ms": 0.5
+    },
+    "Hybrid (RRF)": {
+      "hit@1": 0.84,
+      "hit@3": 0.88,
+      "hit@5": 0.96,
+      "mrr@10": 0.876,
+      "ms": 34.1
+    }
+  },
+  "per_question": [
+    {
+      "question": "Angulimala từ kẻ giết người trở thành bậc thánh như thế nào?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Tạng Thắng Pháp (Abhidhamma) gồm những gì?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Ngài Thế Thân là ai và có đóng góp gì cho Duy Thức học?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Luận Câu Xá do ai soạn và nội dung chính là gì?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Ngài Long Thọ giảng về tánh không như thế nào?",
+      "BM25": 4,
+      "Dense": 2,
+      "Hybrid (RRF)": 4
+    },
+    {
+      "question": "Nghiệp chung của cả cộng đồng khác nghiệp riêng của mỗi người ra sao?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Người mới bắt đầu nên tập ngồi thiền như thế nào?",
+      "BM25": null,
+      "Dense": 3,
+      "Hybrid (RRF)": 9
+    },
+    {
+      "question": "Ví dụ con rắn trong kinh dạy ta nắm giữ giáo pháp thế nào cho đúng?",
+      "BM25": 9,
+      "Dense": 2,
+      "Hybrid (RRF)": 3
+    },
+    {
+      "question": "Bốn lĩnh vực quán niệm là gì?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Làm sao để không nổi nóng và chuyển hóa sự tức giận?",
+      "BM25": null,
+      "Dense": 6,
+      "Hybrid (RRF)": 5
+    },
+    {
+      "question": "Các bậc đại nhân giác ngộ những điều gì?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Chuyện người chồng muốn thay mũi cho vợ trong kinh Bách Dụ",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Kinh Pháp Cú ra đời thế nào và nên trì tụng ra sao?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Tại sao các thiền sư lại dùng những câu hỏi khó hiểu để dạy học trò?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Vì sao tâm hay bất an, xao động?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Tỳ kheo lấy của không được cho thì phạm giới gì?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Quán thân thể là không sạch sẽ để đối trị tham dục",
+      "BM25": 1,
+      "Dense": 2,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Kinh Pháp Hoa được hình thành và truyền bá trong lịch sử ra sao?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Đức Phật Thích Ca đản sinh, xuất gia và thành đạo như thế nào?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Ý nghĩa câu Ưng vô sở trụ nhi sinh kỳ tâm",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Vì sao kinh điển Nguyên thủy và kinh điển Đại thừa lại khác nhau?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Thiền phái Trúc Lâm phát triển ra sao từ thời Hậu Lê?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Những điều mang lại phước lành cao thượng nhất theo lời Phật dạy",
+      "BM25": 2,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Câu 'gặp Phật giết Phật, gặp ma giết ma' nên hiểu thế nào?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    },
+    {
+      "question": "Trung Luận phân tích nhân duyên như thế nào?",
+      "BM25": 1,
+      "Dense": 1,
+      "Hybrid (RRF)": 1
+    }
+  ]
+}

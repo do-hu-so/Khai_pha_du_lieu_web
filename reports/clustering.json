@@ -1,0 +1,203 @@
+{
+  "k": 8,
+  "silhouette_by_k": {
+    "2": 0.0311,
+    "3": 0.0378,
+    "4": 0.0476,
+    "5": 0.0557,
+    "6": 0.0534,
+    "7": 0.0604,
+    "8": 0.0651,
+    "9": 0.0731,
+    "10": 0.0745,
+    "11": 0.0846,
+    "12": 0.085,
+    "13": 0.0961,
+    "14": 0.0956
+  },
+  "silhouette": 0.0651,
+  "ari_vs_category": 0.0905,
+  "nmi_vs_category": 0.207,
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 91,
+      "top_terms": [
+        "phạm tội",
+        "tâm",
+        "đưa",
+        "bậc",
+        "thầy",
+        "kinh",
+        "tỳ khưu",
+        "kẻ",
+        "video",
+        "hỏi"
+      ],
+      "main_category": "Kinh điển",
+      "examples": [
+        "Huyền thoại Duy-ma-cật hóa giải mọi băn khoăn của tôi",
+        "Hại Người Thành Hại Mình",
+        "Kinh Nghĩa Túc: Cái Biết Qua Bờ"
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 49,
+      "top_terms": [
+        "phật giáo",
+        "tài liệu",
+        "việt nam",
+        "truyền thống",
+        "hỗ trợ",
+        "giáo dục",
+        "khả năng",
+        "mở rộng",
+        "phụ thuộc",
+        "hữu ích"
+      ],
+      "main_category": "Phật học và triết học",
+      "examples": [
+        "Long Thọ với Vô thường tánh không và Trung quán luận",
+        "50 Năm Phật Giáo Việt Nam: Bài Học Trải Nghiệm",
+        "Chùa Làng, Chùa Thị"
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 33,
+      "top_terms": [
+        "ngài",
+        "duy thức",
+        "thức",
+        "dịch",
+        "bộ luận",
+        "thành",
+        "đại thừa",
+        "ngã",
+        "nhân",
+        "gọi"
+      ],
+      "main_category": "Kinh điển",
+      "examples": [
+        "Giá Trị To Lớn Của Giáo Huấn Này",
+        "Giác Ngộ Đạo Đăng Luận Của Atisha",
+        "Giới thiệu tạng Thắng Pháp"
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 73,
+      "top_terms": [
+        "bụt",
+        "thực tập",
+        "có mặt",
+        "thầy",
+        "thở",
+        "xin",
+        "hạnh phúc",
+        "mẹ",
+        "chánh niệm",
+        "giúp"
+      ],
+      "main_category": "Phật học và triết học",
+      "examples": [
+        "Mất Mẹ",
+        "Chương 03: Hạnh phúc chân thật",
+        "Living Gems – Kho tàng pháp thoại Sư Ông Làng Mai"
+      ]
+    },
+    {
+      "cluster": 4,
+      "size": 51,
+      "top_terms": [
+        "đức phật",
+        "ngài",
+        "vua",
+        "kể",
+        "câu chuyện",
+        "nhà vua",
+        "sư",
+        "trai",
+        "nhà",
+        "rừng"
+      ],
+      "main_category": "Kinh điển",
+      "examples": [
+        "Angulimala: từ kẻ sát nhân hàng loạt trờ thành vị thánh",
+        "Bản Sanh: truyện 431 tới 440 / Jataka Tales: Stories 431–440",
+        "Bản Sanh: truyện 441 tới 450 / Jataka Tales: Stories 441–450"
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 29,
+      "top_terms": [
+        "phổ môn",
+        "kinh bốn",
+        "hấp hối",
+        "kinh độ người",
+        "khiếp",
+        "sợ hãi",
+        "thức ăn",
+        "kinh",
+        "nuôi dưỡng",
+        "bình an"
+      ],
+      "main_category": "Kinh điển",
+      "examples": [
+        "Bài kinh công đức xuất gia",
+        "Bài kinh: Cách niệm giới để sống bình thản giữa đời",
+        "Bài kinh: Quả báo đời sau của việc sát sinh"
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 37,
+      "top_terms": [
+        "chúng sanh",
+        "bồ tát",
+        "sanh",
+        "phật",
+        "vô lượng",
+        "tướng",
+        "ba la mật",
+        "thế gian",
+        "bồ đề",
+        "công đức"
+      ],
+      "main_category": "Kinh điển",
+      "examples": [
+        "Kinh Pháp Hoa Yếu Lược",
+        "Luận Tỳ Bà Sa",
+        "Quy Sơn Cảnh Sách thi hóa"
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 21,
+      "top_terms": [
+        "kiến thức",
+        "phong điều",
+        "vũ thuận",
+        "tứ",
+        "công án",
+        "trạo cử",
+        "tầm",
+        "thuật ngữ",
+        "sử dụng",
+        "mưa thuận gió"
+      ],
+      "main_category": "Phật học và triết học",
+      "examples": [
+        "Ngày thập trai tụng kinh được phước",
+        "Tại sao kinh điển Phật giáo Nguyên thủy và kinh điển Đại thừa khác nhau?",
+        "Bài văn phát nguyện sám hối với tất cả oan gia trái chủ"
+      ]
+    }
+  ],
+  "figures": {
+    "tsne": "figures/clustering_tsne.png",
+    "silhouette": "figures/clustering_silhouette.png"
+  }
+}

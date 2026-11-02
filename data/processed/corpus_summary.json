@@ -1,0 +1,25 @@
+{
+  "filter_stats": {
+    "raw": 391,
+    "too_short": 5,
+    "dup_near": 2,
+    "kept": 384
+  },
+  "by_source": {
+    "daophatngaynay": 94,
+    "langmai": 100,
+    "phatgiao": 99,
+    "vbeta": 91
+  },
+  "by_category": {
+    "Kinh điển": 214,
+    "Lịch sử và văn hóa": 22,
+    "Phật học và triết học": 98,
+    "Thiền và tu tập": 25,
+    "Tin tức Giáo hội": 6,
+    "Đời sống": 8,
+    "Đức Phật và chư Tổ": 9,
+    "Khác": 2
+  },
+  "total_chars": 6006364
+}

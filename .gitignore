@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Crawler: danh sách URL đã thăm (chỉ dùng để chạy tiếp)
+data/raw/*/visited.txt
+
+# Web (Next.js)
+web/node_modules/
+web/.next/
+web/.cache/
+web/out/
+web/*.tsbuildinfo
+web/.vercel/
+
+# Biến môi trường (chứa GROQ_API_KEY) - KHÔNG commit
+.env
+.env.local
+web/.env
+web/.env.local
+web/.env*.local
+
+# Hệ điều hành / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# LƯU Ý: KHÔNG bỏ qua web/data/index/ - Vercel cần các file index này khi deploy.

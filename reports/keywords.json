@@ -1,0 +1,801 @@
+{
+  "by_category": {
+    "Khác": [
+      [
+        "living",
+        0.1048
+      ],
+      [
+        "pháp thoại",
+        0.0901
+      ],
+      [
+        "kiều",
+        0.0892
+      ],
+      [
+        "sư ông",
+        0.085
+      ],
+      [
+        "lưu trữ",
+        0.0716
+      ],
+      [
+        "thực tập",
+        0.0702
+      ],
+      [
+        "kho tàng",
+        0.0678
+      ],
+      [
+        "ngôn ngữ",
+        0.0676
+      ],
+      [
+        "sưu tập",
+        0.0645
+      ],
+      [
+        "thúy kiều",
+        0.0632
+      ],
+      [
+        "sống động",
+        0.062
+      ],
+      [
+        "yểm trợ",
+        0.0594
+      ],
+      [
+        "thương",
+        0.0582
+      ],
+      [
+        "phụ đề",
+        0.0576
+      ],
+      [
+        "ghen",
+        0.0562
+      ],
+      [
+        "tình thương",
+        0.0557
+      ],
+      [
+        "kho",
+        0.0556
+      ],
+      [
+        "chiều",
+        0.0537
+      ],
+      [
+        "phát hành",
+        0.0526
+      ],
+      [
+        "việt ngữ",
+        0.0526
+      ]
+    ],
+    "Kinh điển": [
+      [
+        "kinh",
+        0.0282
+      ],
+      [
+        "phật",
+        0.0239
+      ],
+      [
+        "đức phật",
+        0.0204
+      ],
+      [
+        "ngài",
+        0.0199
+      ],
+      [
+        "bậc",
+        0.0189
+      ],
+      [
+        "thành",
+        0.0189
+      ],
+      [
+        "bồ tát",
+        0.0187
+      ],
+      [
+        "loại",
+        0.0186
+      ],
+      [
+        "dịch",
+        0.0185
+      ],
+      [
+        "kia",
+        0.0184
+      ],
+      [
+        "hỏi",
+        0.018
+      ],
+      [
+        "bụt",
+        0.0176
+      ],
+      [
+        "xin",
+        0.0172
+      ],
+      [
+        "sanh",
+        0.0172
+      ],
+      [
+        "thức ăn",
+        0.0172
+      ],
+      [
+        "thầy",
+        0.0172
+      ],
+      [
+        "tâm",
+        0.017
+      ],
+      [
+        "đời",
+        0.0165
+      ],
+      [
+        "lớn",
+        0.0164
+      ],
+      [
+        "đường",
+        0.0163
+      ]
+    ],
+    "Lịch sử và văn hóa": [
+      [
+        "chợt",
+        0.0339
+      ],
+      [
+        "bản văn xuôi",
+        0.0301
+      ],
+      [
+        "phỏng",
+        0.0295
+      ],
+      [
+        "sáng tạo",
+        0.0293
+      ],
+      [
+        "đầu",
+        0.0292
+      ],
+      [
+        "ngô tằng giao",
+        0.0286
+      ],
+      [
+        "chi",
+        0.028
+      ],
+      [
+        "thi hóa",
+        0.0279
+      ],
+      [
+        "đường",
+        0.0271
+      ],
+      [
+        "thay",
+        0.027
+      ],
+      [
+        "tâm minh",
+        0.027
+      ],
+      [
+        "vội",
+        0.0256
+      ],
+      [
+        "nhanh",
+        0.0254
+      ],
+      [
+        "đoàn",
+        0.0237
+      ],
+      [
+        "bề",
+        0.023
+      ],
+      [
+        "phật giáo",
+        0.0227
+      ],
+      [
+        "trăng",
+        0.0226
+      ],
+      [
+        "vô",
+        0.0226
+      ],
+      [
+        "vàng",
+        0.0225
+      ],
+      [
+        "truyện cổ",
+        0.0224
+      ]
+    ],
+    "Phật học và triết học": [
+      [
+        "phật giáo",
+        0.0322
+      ],
+      [
+        "tứ",
+        0.0269
+      ],
+      [
+        "giúp",
+        0.0264
+      ],
+      [
+        "tâm",
+        0.0262
+      ],
+      [
+        "tài liệu",
+        0.0258
+      ],
+      [
+        "con người",
+        0.0242
+      ],
+      [
+        "tầm",
+        0.0235
+      ],
+      [
+        "cách",
+        0.0233
+      ],
+      [
+        "khả năng",
+        0.0231
+      ],
+      [
+        "hiểu",
+        0.0223
+      ],
+      [
+        "phật",
+        0.0223
+      ],
+      [
+        "thuật ngữ",
+        0.0222
+      ],
+      [
+        "việt nam",
+        0.0216
+      ],
+      [
+        "học",
+        0.0212
+      ],
+      [
+        "sử dụng",
+        0.0211
+      ],
+      [
+        "thầy",
+        0.021
+      ],
+      [
+        "tu tập",
+        0.0207
+      ],
+      [
+        "kinh",
+        0.0207
+      ],
+      [
+        "kiến thức",
+        0.0205
+      ],
+      [
+        "thiền",
+        0.0205
+      ]
+    ],
+    "Thiền và tu tập": [
+      [
+        "thiền",
+        0.0399
+      ],
+      [
+        "nhận biết",
+        0.0344
+      ],
+      [
+        "cơ thể",
+        0.0324
+      ],
+      [
+        "cuộc sống",
+        0.0301
+      ],
+      [
+        "hãy",
+        0.0292
+      ],
+      [
+        "khả năng",
+        0.0291
+      ],
+      [
+        "phật giáo",
+        0.0289
+      ],
+      [
+        "nỗi",
+        0.0285
+      ],
+      [
+        "thở",
+        0.0277
+      ],
+      [
+        "chánh niệm",
+        0.0273
+      ],
+      [
+        "trở thành",
+        0.0272
+      ],
+      [
+        "mọi",
+        0.0272
+      ],
+      [
+        "giúp",
+        0.026
+      ],
+      [
+        "lòng",
+        0.0253
+      ],
+      [
+        "tinh thần",
+        0.0249
+      ],
+      [
+        "tài liệu",
+        0.0243
+      ],
+      [
+        "phật pháp",
+        0.0233
+      ],
+      [
+        "tâm",
+        0.0233
+      ],
+      [
+        "thực tập",
+        0.0232
+      ],
+      [
+        "tìm",
+        0.0229
+      ]
+    ],
+    "Tin tức Giáo hội": [
+      [
+        "giáo hội",
+        0.1046
+      ],
+      [
+        "đại biểu",
+        0.0915
+      ],
+      [
+        "hội đồng trị sự",
+        0.088
+      ],
+      [
+        "trung ương",
+        0.0794
+      ],
+      [
+        "tổ chức",
+        0.0736
+      ],
+      [
+        "đại hội",
+        0.0709
+      ],
+      [
+        "toàn quốc",
+        0.0661
+      ],
+      [
+        "chương trình",
+        0.0648
+      ],
+      [
+        "chùa",
+        0.0646
+      ],
+      [
+        "phật giáo",
+        0.0634
+      ],
+      [
+        "công tác",
+        0.0625
+      ],
+      [
+        "việt nam",
+        0.0617
+      ],
+      [
+        "ban",
+        0.0603
+      ],
+      [
+        "đề nghị",
+        0.06
+      ],
+      [
+        "ban trị sự",
+        0.0586
+      ],
+      [
+        "hoằng pháp",
+        0.0583
+      ],
+      [
+        "đại lễ",
+        0.0559
+      ],
+      [
+        "kỷ niệm",
+        0.0543
+      ],
+      [
+        "dân tộc",
+        0.0524
+      ],
+      [
+        "chào mừng",
+        0.0516
+      ]
+    ],
+    "Đời sống": [
+      [
+        "viết",
+        0.0464
+      ],
+      [
+        "giữ",
+        0.0367
+      ],
+      [
+        "chùa",
+        0.0343
+      ],
+      [
+        "đức phật",
+        0.0338
+      ],
+      [
+        "nhìn",
+        0.0335
+      ],
+      [
+        "chuyện",
+        0.0327
+      ],
+      [
+        "chúng sinh",
+        0.0326
+      ],
+      [
+        "lòng",
+        0.0311
+      ],
+      [
+        "kể",
+        0.0305
+      ],
+      [
+        "bản",
+        0.0303
+      ],
+      [
+        "phật",
+        0.0301
+      ],
+      [
+        "đọc",
+        0.0296
+      ],
+      [
+        "sư",
+        0.0296
+      ],
+      [
+        "tin",
+        0.0296
+      ],
+      [
+        "phật giáo",
+        0.0289
+      ],
+      [
+        "dạy",
+        0.0285
+      ],
+      [
+        "di chúc",
+        0.028
+      ],
+      [
+        "nhận",
+        0.027
+      ],
+      [
+        "nhóm",
+        0.027
+      ],
+      [
+        "đời",
+        0.0268
+      ]
+    ],
+    "Đức Phật và chư Tổ": [
+      [
+        "đức phật",
+        0.0428
+      ],
+      [
+        "phật",
+        0.039
+      ],
+      [
+        "đản sinh",
+        0.0383
+      ],
+      [
+        "ngài",
+        0.038
+      ],
+      [
+        "điên",
+        0.0336
+      ],
+      [
+        "lịch sử",
+        0.032
+      ],
+      [
+        "tìm",
+        0.0301
+      ],
+      [
+        "chúng sinh",
+        0.03
+      ],
+      [
+        "giáo pháp",
+        0.0299
+      ],
+      [
+        "thái tử",
+        0.0297
+      ],
+      [
+        "hiện hữu",
+        0.0296
+      ],
+      [
+        "đức",
+        0.0294
+      ],
+      [
+        "vũ trụ",
+        0.0292
+      ],
+      [
+        "con người",
+        0.0288
+      ],
+      [
+        "ấn độ",
+        0.0285
+      ],
+      [
+        "thuốc",
+        0.0273
+      ],
+      [
+        "nghĩ",
+        0.0273
+      ],
+      [
+        "từ bỏ",
+        0.0271
+      ],
+      [
+        "bệnh",
+        0.0271
+      ],
+      [
+        "tin",
+        0.0258
+      ]
+    ]
+  },
+  "doc_examples": [
+    {
+      "doc_id": "b63efccba22d9464",
+      "title": "Angulimala: từ kẻ sát nhân hàng loạt trờ thành vị thánh",
+      "keywords": [
+        "angulimala",
+        "vũ khí",
+        "ngón",
+        "nhà sư",
+        "lấp lánh",
+        "dừng",
+        "khóa học",
+        "phụ nữ",
+        "cậu",
+        "giết"
+      ]
+    },
+    {
+      "doc_id": "7828e555214b1468",
+      "title": "Đại Tỳ-bà-sa luận (大毗婆沙论 Abhidharma-mahavibhasa-sastra)",
+      "keywords": [
+        "túc luận",
+        "kiền độ",
+        "phát trí luận",
+        "nhất thiết hữu bộ",
+        "quyển",
+        "tâm luận",
+        "dị thuyết",
+        "luận",
+        "trí luận",
+        "nhật bản"
+      ]
+    },
+    {
+      "doc_id": "2a02911e66ae412b",
+      "title": "Bài kinh ca ngợi Bụt Amitabha",
+      "keywords": [
+        "mô bụt",
+        "amitabha",
+        "tịnh độ",
+        "cam",
+        "an lành",
+        "làm nên",
+        "đại địa",
+        "như lai",
+        "quang",
+        "con nguyện"
+      ]
+    },
+    {
+      "doc_id": "c442362c9b9de97a",
+      "title": "Ái ngữ lắng nghe",
+      "keywords": [
+        "mau chóng",
+        "truyền thông",
+        "ái ngữ",
+        "bực bội",
+        "lắng nghe",
+        "con nguyện",
+        "thực tập",
+        "hàm ý",
+        "dùng ngôn",
+        "đợi chờ"
+      ]
+    },
+    {
+      "doc_id": "4faf56b51805bdd7",
+      "title": "Bồ tát vô úy",
+      "keywords": [
+        "quảng độ",
+        "tử thần",
+        "sống chết",
+        "nhà nước",
+        "hèn nhát",
+        "tiên",
+        "vô úy",
+        "độc tài",
+        "tù",
+        "chế độ"
+      ]
+    },
+    {
+      "doc_id": "f2eab048467094d6",
+      "title": "Cách chép kinh Vu lan báo hiếu tại nhà",
+      "keywords": [
+        "chép kinh",
+        "kinh vu lan",
+        "chép",
+        "báo hiếu",
+        "kinh văn",
+        "sạch sẽ",
+        "hiếu",
+        "bút",
+        "biết ơn",
+        "cẩn thận"
+      ]
+    },
+    {
+      "doc_id": "16a61eab5b7bef7a",
+      "title": "Đại hội Phật giáo toàn quốc lần thứ X có những hoạt động gì?",
+      "keywords": [
+        "giáo hội",
+        "triển lãm",
+        "chào mừng",
+        "đại hội",
+        "toàn quốc",
+        "văn phòng",
+        "đại biểu",
+        "dự kiến",
+        "tiến độ",
+        "hội đồng trị sự"
+      ]
+    },
+    {
+      "doc_id": "vbeta-331-13108",
+      "title": "Luật Ma Ha Tăng Kỳ - Tập 1 - Quyển Thứ Ba : Phần Còn lại Của Giới Trộm Cắp",
+      "keywords": [
+        "ăn trộm",
+        "xóm làng",
+        "mỡ",
+        "trục xuất",
+        "sữa",
+        "ranh giới",
+        "ngu",
+        "tử hình",
+        "phạm tội",
+        "giam"
+      ]
+    }
+  ],
+  "figures": {
+    "Khác": "figures/wordcloud_Khác.png",
+    "Kinh điển": "figures/wordcloud_Kinh_điển.png",
+    "Lịch sử và văn hóa": "figures/wordcloud_Lịch_sử_và_văn_hóa.png",
+    "Phật học và triết học": "figures/wordcloud_Phật_học_và_triết_học.png",
+    "Thiền và tu tập": "figures/wordcloud_Thiền_và_tu_tập.png",
+    "Tin tức Giáo hội": "figures/wordcloud_Tin_tức_Giáo_hội.png",
+    "Đời sống": "figures/wordcloud_Đời_sống.png",
+    "Đức Phật và chư Tổ": "figures/wordcloud_Đức_Phật_và_chư_Tổ.png"
+  },
+  "vocab_size": 11736
+}

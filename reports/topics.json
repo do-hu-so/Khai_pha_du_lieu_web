@@ -1,0 +1,241 @@
+{
+  "n_topics": 10,
+  "perplexity": 2132.57,
+  "topics": [
+    {
+      "topic": 0,
+      "words": [
+        "sợ hãi",
+        "thức ăn",
+        "nuôi dưỡng",
+        "phổ môn",
+        "yếu tố",
+        "nhận thức",
+        "cha mẹ",
+        "trưởng",
+        "giả",
+        "mở",
+        "nước",
+        "cuộc"
+      ],
+      "share": 0.0685
+    },
+    {
+      "topic": 1,
+      "words": [
+        "ngài",
+        "bất khả thuyết",
+        "dịch",
+        "đức phật",
+        "bộ",
+        "bản",
+        "câu",
+        "hoa",
+        "đệ tử",
+        "chữ",
+        "kệ",
+        "đại thừa"
+      ],
+      "share": 0.0935
+    },
+    {
+      "topic": 2,
+      "words": [
+        "tăng",
+        "tầm",
+        "tứ",
+        "gặp",
+        "ngồi",
+        "cúng",
+        "suy nghĩ",
+        "bà",
+        "lễ",
+        "dường",
+        "đọc",
+        "chư thiên"
+      ],
+      "share": 0.1085
+    },
+    {
+      "topic": 3,
+      "words": [
+        "sư",
+        "trà",
+        "nước",
+        "viết",
+        "thầy",
+        "chùa",
+        "cây",
+        "đọc",
+        "nhà",
+        "đưa",
+        "dùng",
+        "điệu"
+      ],
+      "share": 0.0944
+    },
+    {
+      "topic": 4,
+      "words": [
+        "bồ tát",
+        "chúng sanh",
+        "ngài",
+        "tu",
+        "rõ",
+        "vô",
+        "ba la mật",
+        "tướng",
+        "vô lượng",
+        "dẫn",
+        "bồ đề",
+        "thân"
+      ],
+      "share": 0.1123
+    },
+    {
+      "topic": 5,
+      "words": [
+        "tỳ khưu",
+        "phạm tội",
+        "tu",
+        "quán",
+        "bậc",
+        "ngươi",
+        "bỏ",
+        "sanh",
+        "ngã",
+        "lìa",
+        "tuyên bố",
+        "ý định"
+      ],
+      "share": 0.0466
+    },
+    {
+      "topic": 6,
+      "words": [
+        "đức phật",
+        "ngài",
+        "vua",
+        "nhà vua",
+        "câu chuyện",
+        "nhận",
+        "kể",
+        "bà",
+        "lòng",
+        "trở",
+        "rừng",
+        "giải thích"
+      ],
+      "share": 0.0978
+    },
+    {
+      "topic": 7,
+      "words": [
+        "bạch thế tôn",
+        "thời",
+        "thế tôn",
+        "loại",
+        "vua",
+        "hỏi",
+        "thầy",
+        "diệt",
+        "chánh",
+        "đại đức",
+        "đoạn",
+        "bậc"
+      ],
+      "share": 0.0785
+    },
+    {
+      "topic": 8,
+      "words": [
+        "phật giáo",
+        "con người",
+        "chùa",
+        "việt nam",
+        "đức phật",
+        "xã hội",
+        "học",
+        "đạo phật",
+        "giáo hội",
+        "giác ngộ",
+        "phật tử",
+        "truyền thống"
+      ],
+      "share": 0.0915
+    },
+    {
+      "topic": 9,
+      "words": [
+        "thầy",
+        "thực tập",
+        "thở",
+        "mẹ",
+        "bụt",
+        "giúp",
+        "chánh niệm",
+        "hạnh phúc",
+        "bước",
+        "ý thức",
+        "có mặt",
+        "khả năng"
+      ],
+      "share": 0.2083
+    }
+  ],
+  "examples": {
+    "0": [
+      "Kinh Bách Dụ: Thay mũi cho vợ",
+      "Quỷ Trong Sa Mạc",
+      "Kinh Bách Dụ: Vợ chồng đánh cuộc để ăn bánh"
+    ],
+    "1": [
+      "Đại Tỳ-bà-sa luận (大毗婆沙论 Abhidharma-mahavibhasa-sastra)",
+      "Lược giải Kinh Pháp Hoa - 2. Lịch Sử Kinh Pháp Hoa",
+      "Đại cương về Luận Câu Xá"
+    ],
+    "2": [
+      "Những công năng khi trì niệm Chú Dược Sư",
+      "Kiết sử trao cử là gì?",
+      "Những ngày lễ Phật giáo bạn nên nhớ"
+    ],
+    "3": [
+      "Kinh Tăng Chi Bộ 1 - Chương I Một Pháp IV. Phẩm Không Điều Phục",
+      "Video books Kinh Tiểu Bộ_Tập (4,5)/10",
+      "Video Books Kinh Tương ưng Bộ"
+    ],
+    "4": [
+      "Kinh Lương Hoàng Sám (Quyển 9)",
+      "Luận Đại Trí Độ Tập II - Quyển 25. Phẩm thứ nhất Tiếp theo - 4 Vô Sở Úy - 4 Vô Ngại Trí",
+      "Luận Đại Trí Độ Tập III - Quyển 45. Phẩm thứ mười hai - Cú Nghĩa. Phẩm thứ mười ba - Kim Cang. Phẩm thứ mười bốn - Đoạn Chư Kiến (Đoạn Trừ Các Kiến) Phẩm thứ mười lăm - Phú Lâu Na."
+    ],
+    "5": [
+      "Phân tích giới Tỳ khưu (Tập 1) - Điều Pārājika Thứ Nhất.",
+      "Phân Tích Giới Tỳ Khưu Tập 2 - 6.1.2. Điều Học Về Nói Lời Mắng Nhiếc",
+      "Phân tích giới Tỳ khưu (Tập 1) - Tụng Phẩm - Được Che Phủ"
+    ],
+    "6": [
+      "Bản Sanh: truyện 501 tới 510 / Jataka Tales: Stories 501–510",
+      "Bản Sanh: truyện 471 tới 480 / Jataka Tales: Stories 471–480",
+      "Bản Sanh: truyện 441 tới 450 / Jataka Tales: Stories 441–450"
+    ],
+    "7": [
+      "Kinh Trường Bộ 2 - 17. Kinh Đại Thiện Kiến Vương",
+      "Kinh Tương Ưng 5 Đại Phẩm - Chương I Tương Ưng Đạo IV. Phẩm Về Hạnh (Patipattivagga)",
+      "Kinh Tương Ưng 5 Đại Phẩm - Chương I Tương Ưng Đạo II. Phẩm Trú"
+    ],
+    "8": [
+      "Chùa Làng, Chùa Thị",
+      "Phật giáo trong biến đổi xã hội ở Trung Quốc",
+      "Chùa làng chùa thị"
+    ],
+    "9": [
+      "Chánh niệm là nền tảng cho những hành động phản ảnh quyền lực đích thực",
+      "Bài học đầu tiên về thực tập chánh niệm",
+      "Đoạn đức, Ân đức và Trí đức – Quyền lực của nhà lãnh đạo"
+    ]
+  },
+  "figures": {
+    "heatmap": "figures/lda_topics_vs_category.png"
+  }
+}
